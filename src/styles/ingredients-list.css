@@ -10,6 +10,7 @@ p{
     background-size: cover;
     height: 356px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,6 +36,10 @@ p{
  align-content: center;
 
 
+}
+
+.ingredient-element{
+    width: 50%;
 }
 
 button{
