@@ -14,7 +14,7 @@ export default class TitleSection extends Component {
                     </h3>
                 </div>
                 <span id='print-link'>
-                    <img id='print-icon' src='./lab-assets/print-icon.png' />
+                    <img id='print-icon' src='./lab-assets/print-icon.png' alt="print-icon" />
                     <p id='print'>Print</p>
                 </span>
             </section>
