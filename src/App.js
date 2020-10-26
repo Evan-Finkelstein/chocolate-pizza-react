@@ -4,6 +4,8 @@ import './styles/header.css';
 import './styles/reset.css';
 import './styles/ingredients-list.css';
 import Header from './Header.js'
+import Body from './Body.js';
+import Footer from './Footer.js';
 
 
 export default class App extends React.Component {
@@ -11,6 +13,8 @@ export default class App extends React.Component {
     return (
       <div>
         <Header />
+        <Body />
+        <Footer />
       </div>
     );
   }
